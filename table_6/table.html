@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <main>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        <header>
+                            <h1>Please Fill Out the Form Completely</h1>
+                        </header>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <section>
+                            <hr style="border: 1;font-size: 90%;">
+                        </section>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <table>
+                    <thead></thead>
+                    <tbody>
+                        <form action="kaydet.php" method="post">
+                            <section>
+                                <tr>
+                                    <th colspan="2">
+                                        <h2>Your Account Information</h2>
+                                    </th>
+                                </tr>
+                                <tr class="font">
+                                    <div>
+                                        <td>
+                                            <label for="userName">User Name: </label>
+                                        </td>
+                                        <td>
+                                            <input type="userName">
+                                        </td>
+                                    </div>
+                                </tr>
+                                <tr class="font">
+                                    <div>
+                                        <td>
+                                            <label for="email">Email: </label>
+                                        </td>
+                                        <td>
+                                            <input type="email">
+                                        </td>
+                                    </div>
+                                </tr>
+                                <tr class="font">
+                                    <div>
+                                        <td>
+                                            <label for="password">Password: </label>
+                                        </td>
+                                        <td>
+                                            <input type="password">
+                                        </td>
+                                    </div>
+                                </tr>
+                            </section>
+                            <section>
+                                <tr>
+                                    <th colspan="2">
+                                        <h2>Your Personal Information</h2>
+                                    </th>
+                                </tr>
+                                <tr class="font">
+                                    <div>
+                                        <td>
+                                            <label for="name">Name: </label>
+                                        </td>
+                                        <td>
+                                            <input type="name">
+                                        </td>
+                                    </div>
+                                </tr>
+                                <tr class="font">
+                                    <div>
+                                        <td>
+                                            <label for="surname">Surname: </label>
+                                        </td>
+                                        <td>
+                                            <input type="surname">
+                                        </td>
+                                    </div>
+                                </tr>
+                                <tr class="font">
+                                    <div>
+                                        <td>
+                                            <label for="citiy">Citiy: </label>
+                                        </td>
+                                        <td>
+                                            <select id="Citiy">
+                                                <option value="07">Antalya</option>
+                                                <option value="01">Adana</option>
+                                                <option value="80">Osmaniye</option>
+                                            </select>
+                                        </td>
+                                    </div>
+                                </tr>
+                                <tr class="font">
+                                    <div>
+                                        <td>
+                                            <label for="gender">Gender</label>
+                                        </td>
+                                        <td>
+                                            <input type="radio" name="gender" value="Male">
+                                                <label for="Male">Male</label>
+                                                <input type="radio" name="gender" value="Fmale">
+                                                <label for="Fmale">Fmale</label>
+                                        </td>
+                                    </div>
+                                </tr>
+                                <tr class="font">
+                                    <div>
+                                        <td>
+                                            <label for="hobyy">Your hobbies</label>
+                                        </td>
+                                        <td>
+                                            <input type="checkbox" value="toswim">
+                                                <label for="toswim">Toswim</label>
+                                                <input type="checkbox" value="coding">
+                                                <label for="coding">Coding</label>
+                                                <input type="checkbox" value="hack">
+                                                <label for="hack">Hack</label>
+                                                <input type="checkbox" value="music">
+                                                <label for="music">Music</label>
+                                        </td>
+                                    </div>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <button class="submit" type="submit">Submit</button>
+                                    </td>
+                                </tr>
+                            </section>
+                        </form>
+                    </tbody>
+                </table>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

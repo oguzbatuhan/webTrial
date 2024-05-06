@@ -1,0 +1,24 @@
+html {
+    font-size: 10px; /* Tüm sayfanın font boyutunu 10 piksel olarak ayarlar */
+}
+.table {
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+h2 {
+    text-align: left;
+    font-size: 3rem;
+}
+.font {
+    font-size: 2rem;
+}
+.submit {
+    font-size: 2rem;
+    background-color: rgb(128, 251, 126);
+    border: 0rem;
+    border-radius: 2rem;
+}
