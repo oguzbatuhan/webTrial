@@ -1,0 +1,74 @@
+/* system start */
+html {
+    font-size: 10px;
+}
+body {
+    margin: 0;
+    margin-bottom: -2rem;
+}
+/* system end */
+
+/* heder start */
+nav {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1.2rem;
+    background-color: rgb(225, 225, 225);
+}
+h1 {
+    font-size: 3rem;
+    font-size: x-large;
+    text-align: center;
+}
+/* heder end */
+
+/* table start */
+.tab {
+    width: 100%;
+}
+.solid {
+    width: 15%;
+    height: 100%;
+}
+.main {
+    width: 60%;
+}
+.imgsolid {
+    width: 25%;
+}
+/* table end */
+
+/* texs start */
+section {
+    font-size: 2rem;
+}
+div {
+    font-size: 2rem;
+}
+li {
+    font-size: 1.5rem;
+    list-style-type: none;
+}
+h2 {
+    font-size: 2.5rem;
+}
+/* texs end */
+
+/* img start */
+img {
+    width: 100%;
+    border: 0.1rem solid;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+/* img end */
+
+/* footer end */
+footer {
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 0;
+}
+/* footer end */

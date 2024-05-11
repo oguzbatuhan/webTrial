@@ -1,0 +1,45 @@
+/* system start */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+    margin: 1rem 5rem 0rem 5rem;
+}
+body {
+    font-size: 2rem;
+}
+/* system end */
+
+/* menu start */
+.content-section {
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    padding: 0.5rem;
+    align-items: center;
+    box-sizing: border-box; /* new */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 183, 75);
+    border-radius: 5rem;
+    padding: auto;
+}
+.heder-a {
+    width: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    padding-left: 2rem;
+}
+.choose {
+    width: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: right;
+    padding-right: 2rem;
+}
+/* menu end */
+

@@ -1,0 +1,39 @@
+/* system start */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+}
+/* system end */
+
+/* table start */
+section {
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    font-size: 2rem;
+}
+.h1 {
+    text-align: center;
+}
+.div-a {
+    display: flex;
+    width: 100%;
+    text-align: right;
+}
+.ul-a {
+    list-style-type: none;
+}
+.ul-b {
+    list-style-type: none;
+}
+.input {
+    border-radius: 1rem;
+    width: 15rem;
+    height: 2rem;
+}
+/* table end */
+
