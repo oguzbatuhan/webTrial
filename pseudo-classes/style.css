@@ -1,0 +1,28 @@
+/* system start */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+}
+/* system end */
+
+/* head-bar start */
+.head-bar {
+    width: 100%;
+    height: auto;
+}
+.head-bar a {
+    text-decoration: none;
+}
+.head-bar-ul-r {
+    text-decoration: none;
+}
+/* head-bar end */
+
+/* main start */
+/* main end */
+
+/* aside start */
+/* aside end */

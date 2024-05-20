@@ -1,0 +1,187 @@
+/* system start */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+}
+/* system end */
+
+/* bar start */
+.bar {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 1.8rem;
+    box-sizing: border-box;
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+.bar p {
+    display: inline-block;
+    height: 2rem;
+    position: absolute;
+    left: 0rem;
+    position: relative;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: black;
+}
+.bar p:hover {
+    color: rgb(175, 0, 52);
+}
+.bar ul {
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    right: 0rem;
+}
+.bar li {
+    list-style-type: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: black;
+}
+.bar a {
+    text-decoration: none;
+}
+.bar a:link {
+    color: black;
+}
+.bar a:visited {
+    color: black;
+}
+.bar a:hover {
+    color: white;
+    background-color: rgb(0, 4, 243);
+    border: rgb(0, 4, 243);
+}
+.bar a:active {
+    color: blue;
+}
+.bar-chatgpt a {
+    border: 0.1rem solid;
+    border-color: rgb(245, 209, 100);
+    background-color: rgb(245, 209, 100);
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+.bar-user a {
+    border: 0.1rem solid;
+    border-color: rgb(245, 209, 100);
+    background-color: rgb(245, 209, 100);
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+.bar-login a {
+    border: 0.1rem solid;
+    border-color: rgb(245, 209, 100);
+    background-color: rgb(245, 209, 100);
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+/* bar end */
+
+/* container start */
+.container {
+    width: 100%;
+    display: block;
+    background-color: rgb(214, 212, 212);
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    box-sizing: border-box;
+}
+/* container end */
+
+/* main start */
+.container-main {
+    width: 100%;
+    display: block;
+    background-color: white;
+    padding: 0rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    background-position: center;
+}
+.container-main-img-7 {
+    width: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+.container-main-text {
+    width: 100%;
+    display: block;
+    text-align: center;
+    list-style-type: none;
+}
+.container-main-text-ul-li_ {
+    display: block;
+    padding: 3rem 1.2rem;
+}
+.container-main-text-ul-li___ {
+    display: inline-block;
+    width: 30%;
+    padding: 3rem 1.2rem;
+}
+.container-main-text h2, .container-main-text h3 {
+    color: grey;
+    padding-bottom: 1rem;
+}
+.container-main-blog {
+    width: 100%;
+    height: auto;
+    display: block;
+    display: flex;
+    margin: 2rem 0rem 0rem 0rem;
+}
+.container-main-blog-img {
+    width: 50%;
+    height: auto;
+    display: inline-block;
+}
+.container-main-blog-img img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+.container-main-blog-text {
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    padding: 0rem 2rem;
+}
+.container-main-blog button {
+    font-size: 2rem;
+    margin: 1rem 0rem;
+    padding: 0.2rem 1rem;
+    border-radius: 0.5rem;
+    color: black;
+    border-color: rgb(255, 146, 56);
+    border: rgb(255, 146, 56);
+    background-color: rgb(255, 146, 56);
+}
+.container-main-blog button:hover {
+    color: white;
+    background-color: blue;
+    border: blue;
+}
+/* main end */
+
+/* footer start */
+.footer {
+    display: block;
+    height: 4rem;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+/* footer end */

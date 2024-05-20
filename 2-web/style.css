@@ -1,0 +1,80 @@
+/* system start */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+}
+/* system end */
+
+/* bar, main, footer start */
+.bar, .main, .footer {
+    display: block;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+/* bar, main, footer end */
+
+/* bar start */
+.bar {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+}
+.bar ul {
+    list-style-type: none;
+    display: inline-block;
+    display: flex;
+}
+.bar a {
+    padding: 0.2rem 0.5rem;
+    margin: 0rem 1rem;
+    text-decoration: none;
+    border: grey;
+    color: grey;
+    border-radius: 1rem;
+    font-weight: 600;
+}
+.bar a:hover {
+    border: rgb(213, 212, 212)  0.1rem;
+    color: black;
+    background-color: rgb(213, 212, 212);
+    border-radius: 2rem;
+}
+/* bar end */
+
+/* main start */
+.main {
+    background-color: white;
+}
+.main-image {
+    background-image: url('2-img.webp');
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover;
+    height: 95vh;
+}
+.main-new ul {
+    margin: 2rem 5rem;
+    display: inline-block;
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+.main-new li {
+    width: 33%;
+    margin: 2rem;
+    border: rgb(231, 230, 230) solid 0.2rem;
+    background-color: rgb(231, 230, 230);
+    border-radius: 2rem;
+    color: black;
+    padding: 2rem;
+}
+/* main end */
+
+/* footer start */
+.footer {
+    padding: 0.4rem 2rem;
+}
+/* footer end */
+

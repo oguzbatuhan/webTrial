@@ -1,0 +1,29 @@
+/* system start */
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+/* system end */
+
+/* bar start */
+.bar {
+    display: flex;
+    align-items: center;
+}
+.bar-heder {
+    display: inline-block;
+    left: 0px;
+}
+.bar-menu {
+    right: 0px;
+}
+.bar a {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+/* bar end */
+
